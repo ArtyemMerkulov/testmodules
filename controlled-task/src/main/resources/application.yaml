@@ -1,0 +1,19 @@
+schedule:
+  controller:
+    delay: 10
+  service:
+    delay: 10
+  dosomething:
+    cron: "0 * * * * *"
+    expiredDivider: 2
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/test?schema=public

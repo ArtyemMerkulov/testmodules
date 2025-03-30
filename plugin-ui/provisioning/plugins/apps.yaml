@@ -1,0 +1,11 @@
+apiVersion: 1
+
+apps:
+  - type: 'plugin-ui'
+    org_id: 1
+    org_name: 'I'
+    disabled: false
+    jsonData:
+      apiUrl: http://default-url.com
+    secureJsonData:
+      apiKey: secret-key

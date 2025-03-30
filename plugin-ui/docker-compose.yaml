@@ -1,0 +1,5 @@
+services:
+  grafana:
+    extends:
+      file: docker-compose-base.yaml
+      service: grafana
